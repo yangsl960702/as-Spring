@@ -1,0 +1,7 @@
+1. Bean的基础配置属性是放在BeanDefinition中，其中包括Bean对象的类型，即本节的Object，
+会首先调用BeanDefinition的构造方法将需要注册Bean对象传递给Object
+2.BeanFactory会存在一个线程安全的Map映射 -- BeanName : BeanDefinition，其会根据BeanDefinition
+对象完成相应的BeanDefinition注册，存放到Map映射中去
+3.注册完成后就可以通过BeanFacory的getBean(String BeanName)方法获取到Bean对象，实际过程是
+首先根据beanName从Map中拿到对应的Beandefinition对象，然后再调用Beandefinition对象的getBean()
+方法

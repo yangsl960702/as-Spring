@@ -1,6 +1,7 @@
-package Bean;
+package spring_01_simpleIOC;
 
-import java.util.HashMap;
+import spring_01_simpleIOC.BeanDefination;
+
 import java.util.Map;
 import java.util.concurrent.ConcurrentHashMap;
 

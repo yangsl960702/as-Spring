@@ -1,4 +1,4 @@
-package Bean;
+package spring_01_simpleIOC;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;
